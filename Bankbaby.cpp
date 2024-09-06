@@ -61,7 +61,7 @@ void deposit(const std::string& accountNumber, std::unordered_map<std::string, B
   }
 
   it->second.balance += amount; // Update account balance
-  std::cout << "Deposit successful. Current balance: $" << it->second.balance << std::endl;
+  std::cout << "Deposit successful. Current balance: E" << it->second.balance << std::endl;
 }
 
 // Function to perform withdrawal operation
